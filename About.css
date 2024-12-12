@@ -80,19 +80,37 @@ p {
   margin-bottom: 20px;
 }
 
-button {
+button.cta-button {
+  display: inline-block;
   background-color: #D98555;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  font-size: 18px;
+  color: #F2F2F2;
+  padding: 10px 20px;
   font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 0px;
   cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
 }
 
+button.cta-button:hover {
+  background-color: #B56A40; 
+}
+
+button.cta-button a {
+  color: #F2F2F2; 
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+button.cta-button a:hover {
+  text-decoration: none; 
+}
 button:hover {
   background-color: #59331D;
 }
+
 
 footer {
   background-color: #f2f2f2;
